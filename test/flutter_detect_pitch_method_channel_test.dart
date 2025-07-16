@@ -1,5 +1,5 @@
+import 'package:flutter_detect_pitch/flutter_detect_pitch_method_channel.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pitch_detector/pitch_detector_method_channel.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

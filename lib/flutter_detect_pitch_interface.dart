@@ -1,6 +1,6 @@
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
-import 'pitch_detector_method_channel.dart';
+import 'flutter_detect_pitch_method_channel.dart';
 
 abstract class IosPitchDetectorPlatform extends PlatformInterface {
   IosPitchDetectorPlatform() : super(token: _token);

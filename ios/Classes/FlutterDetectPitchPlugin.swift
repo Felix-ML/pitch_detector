@@ -4,7 +4,7 @@ import UIKit
 import AVFoundation
 import Accelerate
 
-public class IosPitchDetectorPlugin: NSObject, FlutterPlugin {
+public class FlutterDetectPitchPlugin: NSObject, FlutterPlugin {
   private var audioEngine: AVAudioEngine?
   private var inputNode: AVAudioInputNode?
   private var bufferSize: AVAudioFrameCount = 1024
@@ -13,12 +13,12 @@ public class IosPitchDetectorPlugin: NSObject, FlutterPlugin {
 
   public static func register(with registrar: FlutterPluginRegistrar) {
     let eventChannel = FlutterEventChannel(name: "pitch_stream", binaryMessenger: registrar.messenger())
-    let instance = IosPitchDetectorPlugin()
+    let instance = FlutterDetectPitchPlugin()
     eventChannel.setStreamHandler(instance)
   }
 }
 
-extension IosPitchDetectorPlugin: FlutterStreamHandler {
+extension FlutterDetectPitchPlugin: FlutterStreamHandler {
   public func onListen(withArguments arguments: Any?, eventSink events: @escaping FlutterEventSink) -> FlutterError? {
     self.eventSink = events
     startAudioEngine()
@@ -31,7 +31,7 @@ extension IosPitchDetectorPlugin: FlutterStreamHandler {
   }
 }
 
-extension IosPitchDetectorPlugin {
+extension FlutterDetectPitchPlugin {
   private func startAudioEngine() {
     audioEngine = AVAudioEngine()
     inputNode = audioEngine?.inputNode

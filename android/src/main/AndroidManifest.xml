@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="de.felixml.pitch_detector">
+  package="de.felixml.flutter_detect_pitch">
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
 </manifest>

@@ -1,4 +1,4 @@
-package de.felixml.pitch_detector_example
+package de.felixml.flutter_detect_pitch_example
 
 import io.flutter.embedding.android.FlutterActivity
 

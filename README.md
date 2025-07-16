@@ -1,4 +1,4 @@
-[# pitch_detector
+[# flutter_detect_pitch
 
 A Flutter plugin for **real-time pitch detection** using the device microphone (iOS and Android).  
 It uses `AVAudioEngine` and `Accelerate` (iOS) or `AudioRecord` (Android) for fast and reliable frequency estimation.
@@ -23,7 +23,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  pitch_detector: ^0.0.1+1
+  flutter_detect_pitch: ^0.0.1+1
 ```
 
 Then run:
@@ -68,7 +68,7 @@ For Android 6.0+ you must also request runtime permission using e.g. the [permis
 ## 💡 Usage
 
 ```dart
-import 'package:pitch_detector/pitch_detector.dart';
+import 'package:flutter_detect_pitch/flutter_detect_pitch.dart';
 
 void startListening() async {
   // Request permission if needed

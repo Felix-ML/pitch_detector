@@ -1,8 +1,8 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pitch_detector/pitch_detector.dart';
-import 'package:pitch_detector/pitch_detector_method_channel.dart';
-import 'package:pitch_detector/pitch_detector_platform_interface.dart';
+import 'package:flutter_detect_pitch/flutter_detect_pitch.dart';
+import 'package:flutter_detect_pitch/flutter_detect_pitch_method_channel.dart';
+import 'package:flutter_detect_pitch/flutter_detect_pitch_interface.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 class MockIosPitchDetectorPlatform

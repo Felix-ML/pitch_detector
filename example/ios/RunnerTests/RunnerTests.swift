@@ -3,7 +3,7 @@ import UIKit
 import XCTest
 
 
-@testable import ios_pitch_detector
+@testable import flutter_detect_pitch
 
 // This demonstrates a simple unit test of the Swift portion of this plugin's implementation.
 //

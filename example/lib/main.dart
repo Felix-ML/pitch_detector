@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pitch_detector/pitch_detector.dart';
+import 'package:flutter_detect_pitch/flutter_detect_pitch.dart';
 
 void main() => runApp(const PitchTestApp());
 

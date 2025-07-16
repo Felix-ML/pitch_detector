@@ -1,7 +1,7 @@
 ## [0.0.1+1] - 2025-07-15
 
 ### Added
-- Initial release of `pitch_detector`.
+- Initial release of `flutter_detect_pitch`.
 - Added pitch detection functionality using Dart.
 - Provided simple API to start and stop pitch detection.
 - Included a basic example application demonstrating usage.

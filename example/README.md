@@ -1,6 +1,6 @@
-# ios_pitch_detector_example
+# flutter_detect_pitch_example
 
-Demonstrates how to use the ios_pitch_detector plugin.
+Demonstrates how to use the flutter_detect_pitch plugin.
 
 ## Getting Started
 

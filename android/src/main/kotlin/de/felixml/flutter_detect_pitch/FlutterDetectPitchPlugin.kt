@@ -1,4 +1,4 @@
-package de.felixml.pitch_detector
+package de.felixml.flutter_detect_pitch
 
 import android.media.AudioFormat
 import aflucndroid.media.AudioRecord
@@ -7,7 +7,7 @@ import io.flutter.plugin.common.EventChannel
 import io.flutter.plugin.common.PluginRegistry.Registrar
 import kotlin.concurrent.thread
 
-class PitchDetectorPlugin : EventChannel.StreamHandler {
+class FlutterDetectPitchPlugin : EventChannel.StreamHandler {
 
   private var recorder: AudioRecord? = null
   private var recordingThread: Thread? = null
@@ -23,7 +23,7 @@ class PitchDetectorPlugin : EventChannel.StreamHandler {
     @JvmStatic
     fun registerWith(registrar: Registrar) {
       val eventChannel = EventChannel(registrar.messenger(), "pitch_stream")
-      val instance = PitchDetectorPlugin()
+      val instance = FlutterDetectPitchPlugin()
       eventChannel.setStreamHandler(instance)
     }
   }

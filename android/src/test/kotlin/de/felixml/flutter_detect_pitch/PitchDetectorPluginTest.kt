@@ -1,4 +1,4 @@
-package de.felixml.pitch_detector
+package de.felixml.flutter_detect_pitch
 
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel

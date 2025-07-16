@@ -1,4 +1,4 @@
-group = "de.felixml.pitch_detector"
+group = "de.felixml.flutter_detect_pitch"
 version = "0.1.0-SNAPSHOT"
 
 buildscript {
@@ -25,7 +25,7 @@ apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
 
 android {
-    namespace = "de.felixml.pitch_detector"
+    namespace = "de.felixml.flutter_detect_pitch"
 
     compileSdk = 35
 

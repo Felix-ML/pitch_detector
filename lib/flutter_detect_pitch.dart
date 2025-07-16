@@ -1,5 +1,6 @@
 import 'dart:async';
-import 'pitch_detector_platform_interface.dart';
+
+import 'flutter_detect_pitch_interface.dart';
 
 class IosPitchDetector {
   static Stream<double> get pitchStream =>
